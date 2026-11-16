@@ -1,0 +1,1120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rishi Kiran | Actor &amp; Assistant Director, Chennai</title>
+<meta name="description" content="Rishi Kiran is a Chennai-based actor and assistant director working across television, commercials, web and vertical series, short films and theatre.">
+<meta property="og:image" content="assets/img/about.jpg">
+<meta name="theme-color" content="#1F2D3D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231F2D3D'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='30' fill='%23F7F5F0'%3ER%3Ctspan fill='%23C9B48F'%3EK%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ivory: #F7F5F0;
+    --ivory-2: #EFECE5;
+    --charcoal: #1B1F24;
+    --navy: #1F2D3D;
+    --navy-2: #2A3B4F;
+    --brass: #9A7B4F;
+    --brass-light: #C9B48F;
+    --stone: #6B6860;
+    --line: #D9D5CC;
+    --font: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--ivory); color: var(--charcoal); font-family: var(--font); font-weight: 400; line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; max-width: 100%; }
+  button { font: inherit; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+  .label { font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); }
+  .display { font-stretch: 125%; font-weight: 800; letter-spacing: -.02em; line-height: .95; color: var(--navy); }
+  .cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+  /* Nav */
+  header.nav { position: sticky; top: 0; z-index: 20; background: rgba(247,245,240,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  header.nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+  .mono { font-stretch: 125%; font-weight: 800; font-size: 1.35rem; letter-spacing: -.02em; color: var(--navy); }
+  .mono span { color: var(--brass); }
+  .menu { display: flex; gap: 36px; font-size: .92rem; color: var(--stone); }
+  .menu a { transition: color .2s; }
+  .menu a:hover { color: var(--navy); }
+  .menu .cta { color: var(--navy); font-weight: 500; }
+  .burger { display: none; background: none; border: 0; color: var(--navy); font-weight: 600; font-size: .85rem; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; }
+
+  /* Hero */
+  .hero { padding-top: 64px; padding-bottom: 96px; display: grid; grid-template-columns: 7fr 5fr; gap: 64px; align-items: end; }
+  .hero .label { margin-bottom: 28px; }
+  .hero h1 { font-size: clamp(3rem, 7.4vw, 7.2rem); margin-bottom: 36px; }
+  .hero h1 em { font-style: normal; color: var(--brass); }
+  .hero p { max-width: 440px; color: var(--stone); font-size: 1.05rem; margin-bottom: 32px; }
+  .hero-links { display: flex; gap: 12px; flex-wrap: wrap; }
+  .hero-photo { position: relative; aspect-ratio: 4/5; }
+  .hero-photo .frame { position: absolute; inset: 0; overflow: hidden; background: var(--charcoal); }
+  .hero-photo::before { content: ""; position: absolute; inset: 20px -20px -20px 20px; border: 1px solid var(--brass); }
+  .hero-photo .tag { position: absolute; left: -1px; bottom: 28px; background: var(--ivory); color: var(--navy); padding: 10px 16px 10px 0; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+  .hero-photo .tag b { color: var(--brass); font-weight: 600; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 24px; font-size: .85rem; font-weight: 500; border: 1px solid var(--navy); color: var(--navy); transition: background .2s, color .2s; }
+  .btn:hover, .btn.solid { background: var(--navy); color: var(--ivory); }
+  .btn.solid:hover { background: var(--navy-2); }
+
+  /* Showreel */
+  .reel { position: relative; height: min(88vh, 820px); background: var(--navy); color: var(--ivory); overflow: hidden; cursor: pointer; }
+  .reel .big { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-stretch: 125%; font-weight: 800; font-size: clamp(4rem, 16vw, 15rem); letter-spacing: -.03em; color: transparent; -webkit-text-stroke: 1px rgba(201,180,143,.22); white-space: nowrap; pointer-events: none; }
+  .reel .play { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 96px; height: 96px; border-radius: 50%; border: 1px solid rgba(247,245,240,.6); display: flex; align-items: center; justify-content: center; transition: transform .3s, background .3s; z-index: 3; }
+  .reel:hover .play { transform: translate(-50%,-50%) scale(1.08); background: rgba(247,245,240,.12); }
+  .reel .play::after { content: ""; border-left: 18px solid var(--ivory); border-top: 11px solid transparent; border-bottom: 11px solid transparent; margin-left: 5px; }
+  .reel .soon { position: absolute; top: calc(50% + 70px); left: 50%; transform: translateX(-50%); z-index: 3; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: #D3CFC6; white-space: nowrap; }
+  .overlay { position: absolute; left: 0; right: 0; bottom: 0; padding: 40px 32px; background: linear-gradient(transparent, rgba(0,0,0,.7)); display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; z-index: 3; }
+  .overlay .yr { color: var(--brass-light); font-size: .8rem; font-weight: 600; letter-spacing: .12em; }
+  .overlay h3 { font-stretch: 115%; font-weight: 700; font-size: clamp(1.4rem, 3vw, 2.2rem); line-height: 1.1; }
+  .overlay .dur { color: #B8B4AA; font-size: .85rem; }
+
+  /* Section intros */
+  .intro { padding-top: 104px; padding-bottom: 48px; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+  .intro h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin-top: 12px; }
+  .intro p { color: var(--stone); max-width: 380px; }
+
+  /* Role cards */
+  .role { position: relative; height: min(86vh, 800px); overflow: hidden; color: var(--ivory); border-top: 2px solid var(--ivory); background: var(--charcoal); }
+  .role .slide { position: absolute; inset: 0; opacity: 0; transition: opacity .8s; }
+  .role .slide.on { opacity: 1; }
+  .role .slide img { transition: transform 1.4s ease; }
+  .role:hover .slide.on img { transform: scale(1.03); }
+  .role .overlay { padding: 48px 32px; }
+  .role .kind { font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-light); margin-bottom: 8px; }
+  .role .as { color: #D3CFC6; margin-top: 6px; font-size: .95rem; }
+  .pager { display: flex; align-items: center; gap: 14px; font-size: .85rem; color: #D3CFC6; flex-shrink: 0; }
+  .pager button { background: none; border: 1px solid rgba(247,245,240,.45); color: var(--ivory); width: 42px; height: 42px; border-radius: 50%; cursor: pointer; transition: background .2s; }
+  .pager button:hover { background: rgba(247,245,240,.15); }
+  .dots { position: absolute; top: 28px; right: 32px; z-index: 3; display: flex; gap: 6px; }
+  .dots i { width: 22px; height: 2px; background: rgba(247,245,240,.35); transition: background .3s; }
+  .dots i.on { background: var(--brass-light); }
+
+  /* Type-led cards (until project stills arrive) */
+  .role.type { height: min(62vh, 560px); background: var(--navy); }
+  .role.type:nth-of-type(odd) { background: var(--charcoal); }
+  .role.type .big { position: absolute; inset: 0; display: flex; align-items: center; padding: 0 32px; font-stretch: 125%; font-weight: 800; font-size: clamp(3.6rem, 13vw, 12rem); line-height: .9; letter-spacing: -.03em; color: transparent; -webkit-text-stroke: 1px rgba(201,180,143,.4); white-space: nowrap; transition: transform 1.4s ease, -webkit-text-stroke-color .6s; }
+  .role.type:hover .big { transform: translateX(-2%); -webkit-text-stroke-color: rgba(201,180,143,.75); }
+  .role.type .overlay { background: none; }
+  .role.type .num { position: absolute; top: 28px; right: 32px; z-index: 3; font-size: .8rem; color: var(--brass-light); letter-spacing: .12em; }
+
+  /* Video cards */
+  .role.video .play { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 76px; height: 76px; border-radius: 50%; border: 1px solid rgba(247,245,240,.5); display: flex; align-items: center; justify-content: center; z-index: 3; transition: transform .3s, background .3s; }
+  .role.video .play::after { content: ""; border-left: 15px solid var(--ivory); border-top: 9px solid transparent; border-bottom: 9px solid transparent; margin-left: 4px; }
+  .role.video.ready { cursor: pointer; }
+  .role.video.ready:hover .play { transform: translate(-50%,-50%) scale(1.08); background: rgba(247,245,240,.12); }
+  .role.video .soon { position: absolute; top: calc(50% + 56px); left: 50%; transform: translateX(-50%); z-index: 3; font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: #8C96A3; white-space: nowrap; }
+  .role.video.ready .soon { display: none; }
+  .role iframe, .reel iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; z-index: 5; }
+
+  /* Reel rails (vertical Instagram videos) */
+  .rail-block { background: var(--charcoal); color: var(--ivory); padding: 64px 0 72px; border-top: 2px solid var(--ivory); }
+  .rail-block.alt { background: var(--navy); }
+  .rail-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 36px; }
+  .rail-head .kind { font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-light); margin-bottom: 8px; }
+  .rail-head h3 { font-stretch: 115%; font-weight: 700; font-size: clamp(1.6rem, 3.4vw, 2.6rem); line-height: 1.05; }
+  .rail-head .as { color: #D3CFC6; margin-top: 8px; font-size: .95rem; }
+  .rail-head .num { font-size: .8rem; color: var(--brass-light); letter-spacing: .12em; }
+  .rail-head h3 small { display: block; font-size: .5em; font-weight: 500; font-stretch: 100%; color: var(--brass-light); letter-spacing: 0; margin-top: 6px; }
+  .rail-ctrl.fits button { display: none; }
+  .rail-ctrl { display: flex; align-items: center; gap: 14px; color: #D3CFC6; font-size: .85rem; }
+  .rail-ctrl button { background: none; border: 1px solid rgba(247,245,240,.45); color: var(--ivory); width: 42px; height: 42px; border-radius: 50%; cursor: pointer; transition: background .2s, opacity .2s; }
+  .rail-ctrl button:hover { background: rgba(247,245,240,.15); }
+  .rail-ctrl button:disabled { opacity: .3; cursor: default; background: none; }
+  .rail { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-left: var(--rail-pad); padding: 0 var(--rail-pad) 12px; scrollbar-width: none; --rail-pad: max(32px, calc((100vw - 1240px) / 2 + 32px)); }
+  .rail::-webkit-scrollbar { display: none; }
+  .rail::after { content: ""; flex: 0 0 calc(var(--rail-pad) - 18px); }
+  .tile { flex: 0 0 320px; scroll-snap-align: start; }
+  .tile .brand { display: flex; justify-content: space-between; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-light); margin-bottom: 12px; }
+  .tile .brand span:last-child { color: #8C96A3; }
+  .tile .frame { position: relative; height: 580px; background: #fff; overflow: hidden; }
+  .tile .frame.vid { background: #000; height: auto; aspect-ratio: 9/16; }
+  .tile.wide { flex-basis: 680px; }
+  .tile.wide .frame.vid { aspect-ratio: 16/9; }
+  .tile video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
+  .tile iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .tile .open { display: inline-block; margin-top: 12px; font-size: .8rem; color: #B8C2CE; transition: color .2s; }
+  .tile .open:hover { color: var(--brass-light); }
+
+  /* ===== Brand bands: each commercial has its own layout ===== */
+  .band { position: relative; overflow: hidden; padding: 104px 0; border-top: 2px solid var(--ivory); }
+  .band .eyebrow { font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-light); }
+  .band h3 { font-stretch: 120%; font-weight: 800; letter-spacing: -.02em; line-height: .95; }
+  .band .meta { font-size: .9rem; color: #B8C2CE; }
+  .band .ig { display: inline-block; font-size: .8rem; color: #B8C2CE; margin-top: 10px; transition: color .2s; }
+  .band .ig:hover { color: var(--brass-light); }
+  .band video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: #000; }
+  .v169, .v916 { position: relative; background: #000; overflow: hidden; }
+  .v169 { aspect-ratio: 16/9; }
+  .v916 { aspect-ratio: 9/16; }
+  .cap { display: flex; justify-content: space-between; gap: 12px; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; margin-top: 12px; color: #B8C2CE; }
+  .cap b { color: var(--brass-light); font-weight: 600; }
+
+  /* 01 TVS Jupiter: widescreen stadium */
+  .b-tvs { background: var(--charcoal); color: var(--ivory); }
+  .b-tvs .ghost { position: absolute; top: 28px; left: 50%; transform: translateX(-50%); font-stretch: 125%; font-weight: 800; font-size: clamp(5rem, 19vw, 18rem); line-height: .8; letter-spacing: -.04em; color: transparent; -webkit-text-stroke: 1px rgba(201,180,143,.16); white-space: nowrap; pointer-events: none; }
+  .b-tvs .head { position: relative; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin: 96px 0 40px; }
+  .b-tvs h3 { font-size: clamp(2.4rem, 6vw, 5rem); }
+  .b-tvs h3 em { font-style: normal; display: block; font-size: .36em; font-weight: 600; font-stretch: 100%; letter-spacing: .02em; color: var(--brass-light); margin-top: 10px; }
+  .b-tvs .score { display: flex; border: 1px solid rgba(201,180,143,.35); }
+  .b-tvs .score div { padding: 12px 20px; text-align: center; }
+  .b-tvs .score div + div { border-left: 1px solid rgba(201,180,143,.35); }
+  .b-tvs .score b { display: block; font-stretch: 125%; font-weight: 800; font-size: 1.6rem; color: var(--ivory); line-height: 1; }
+  .b-tvs .score span { font-size: .65rem; letter-spacing: .14em; text-transform: uppercase; color: var(--brass-light); }
+  .tvs-grid { position: relative; display: grid; grid-template-columns: 1.65fr 1fr; gap: 20px; align-items: end; }
+  .tvs-grid .side .v169 { outline: 1px solid rgba(201,180,143,.35); outline-offset: 8px; }
+  .tvs-grid .side p { color: #B8C2CE; font-size: .95rem; margin-top: 28px; max-width: 360px; }
+
+  /* 02 Nippon Paint: paint-chip cards on a light band */
+  .b-nippon { background: var(--ivory-2); color: var(--charcoal); border-top-color: var(--line); }
+  .nip-grid { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 40px; align-items: start; }
+  .b-nippon .eyebrow { color: var(--brass); }
+  .b-nippon h3 { color: var(--navy); font-size: clamp(2.6rem, 5vw, 4.4rem); margin: 14px 0 20px; }
+  .b-nippon .meta { color: var(--stone); }
+  .chips-row { display: flex; gap: 0; margin-top: 36px; max-width: 320px; }
+  .chips-row i { flex: 1; height: 64px; }
+  .chips-legend { display: flex; justify-content: space-between; max-width: 320px; font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--stone); margin-top: 8px; }
+  .chip-card { background: #fff; padding: 12px 12px 0; border: 1px solid var(--line); }
+  .chip-card.down { margin-top: 96px; }
+  .chip-card .swatch { display: flex; justify-content: space-between; align-items: center; padding: 14px 4px; }
+  .chip-card .swatch b { font-stretch: 115%; font-weight: 700; color: var(--navy); font-size: 1rem; }
+  .chip-card .swatch span { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--stone); }
+  .chip-card .tone { height: 10px; margin: 0 -12px; }
+  .b-nippon .ig { color: var(--stone); }
+  .b-nippon .ig:hover { color: var(--brass); }
+
+  /* 03 NeoMotion: staggered frames over moving type */
+  .b-neo { background: var(--navy); color: var(--ivory); padding-bottom: 140px; }
+  .b-neo .head { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: end; margin-bottom: 56px; }
+  .b-neo h3 { font-size: clamp(2.6rem, 6vw, 5rem); margin-top: 12px; }
+  .b-neo .head p { color: #B8C2CE; max-width: 380px; justify-self: end; }
+  .marquee { position: absolute; left: 0; right: 0; top: 58%; transform: translateY(-50%) rotate(-4deg); white-space: nowrap; pointer-events: none; }
+  .marquee span { display: inline-block; font-stretch: 125%; font-weight: 800; font-size: clamp(4rem, 11vw, 10rem); letter-spacing: -.03em; color: transparent; -webkit-text-stroke: 1px rgba(201,180,143,.28); padding-right: .4em; animation: drift 38s linear infinite; }
+  @keyframes drift { to { transform: translateX(-100%); } }
+  @media (prefers-reduced-motion: reduce) { .marquee span { animation: none; } }
+  .neo-row { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; max-width: 980px; margin: 0 auto; }
+  .neo-row figure:nth-child(2) { transform: translateY(56px); }
+  .neo-row figure:nth-child(3) { transform: translateY(112px); }
+  .neo-row .v916 { box-shadow: 0 30px 60px rgba(0,0,0,.35); }
+
+  /* 04 Adrenaline: single spotlight phone */
+  .b-adr { background: var(--charcoal); color: var(--ivory); }
+  .adr-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 64px; align-items: center; }
+  .adr-num { font-stretch: 125%; font-weight: 800; font-size: clamp(6rem, 16vw, 13rem); line-height: .8; color: var(--brass); letter-spacing: -.05em; }
+  .b-adr h3 { font-size: clamp(2.6rem, 5.4vw, 4.6rem); margin: 18px 0 18px; }
+  .b-adr p { color: #B8C2CE; max-width: 420px; font-size: 1.02rem; }
+  .stage { position: relative; display: flex; justify-content: center; padding: 40px 0; }
+  .stage::before { content: ""; position: absolute; width: 86%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(201,180,143,.28), rgba(201,180,143,0) 68%); top: 50%; left: 50%; transform: translate(-50%,-50%); }
+  .phone { position: relative; width: min(320px, 78vw); padding: 10px; background: #0B0D10; border-radius: 40px; border: 1px solid rgba(247,245,240,.12); }
+  .phone .v916 { border-radius: 30px; }
+
+  /* 05 Emma Matters: editorial spread */
+  .b-emma { background: var(--ivory); color: var(--charcoal); border-top-color: var(--line); }
+  .emma-grid { display: grid; grid-template-columns: 1fr 360px; gap: 72px; align-items: center; }
+  .b-emma .eyebrow { color: var(--brass); }
+  .b-emma h3 { color: var(--navy); font-size: clamp(3rem, 8vw, 7rem); margin: 18px 0 28px; }
+  .b-emma .rule { display: flex; gap: 32px; border-top: 1px solid var(--line); padding-top: 18px; max-width: 520px; }
+  .b-emma .rule div { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--stone); }
+  .b-emma .rule b { display: block; font-size: .95rem; letter-spacing: 0; text-transform: none; color: var(--charcoal); font-weight: 500; margin-top: 4px; }
+  .emma-frame { position: relative; padding: 14px 14px 0; background: #fff; border: 1px solid var(--line); }
+  .emma-frame::after { content: ""; position: absolute; inset: 18px -18px -18px 18px; border: 1px solid var(--brass); z-index: -1; }
+  .emma-frame figcaption { padding: 14px 2px; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--stone); }
+  .b-emma .ig { color: var(--stone); }
+
+  /* 06 Sakthi Masala: film strip with episode numbers */
+  .b-sakthi { background: #15181C; color: var(--ivory); padding: 120px 0; }
+  .b-sakthi::before, .b-sakthi::after { content: ""; position: absolute; left: 0; right: 0; height: 26px; background: repeating-linear-gradient(90deg, transparent 0 14px, rgba(247,245,240,.14) 14px 34px, transparent 34px 48px); background-size: 48px 12px; background-repeat: repeat-x; background-position: 0 50%; }
+  .b-sakthi::before { top: 22px; } .b-sakthi::after { bottom: 22px; }
+  .b-sakthi .head { text-align: center; margin-bottom: 56px; }
+  .b-sakthi h3 { font-size: clamp(2.6rem, 6vw, 5rem); margin: 14px 0 10px; }
+  .b-sakthi .head .meta b { color: var(--brass-light); font-weight: 500; }
+  .eps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px; max-width: 1200px; margin: 0 auto; }
+  .eps .trailer .ep-num { -webkit-text-stroke-color: #E4C590; }
+  .eps .trailer .v916 { border-color: rgba(201,180,143,.55); }
+  .ep-num { font-stretch: 125%; font-weight: 800; font-size: clamp(3.4rem, 7vw, 6rem); line-height: .85; color: transparent; -webkit-text-stroke: 1px var(--brass-light); margin-bottom: -18px; position: relative; z-index: 2; padding-left: 8px; }
+  .eps figure:hover .ep-num { color: var(--brass-light); }
+  .eps .v916 { border: 1px solid rgba(247,245,240,.12); }
+
+  @media (max-width: 900px) {
+    .band { padding: 72px 0; }
+    .b-tvs .head { margin-top: 64px; }
+    .tvs-grid, .nip-grid, .adr-grid, .emma-grid, .b-neo .head { grid-template-columns: 1fr; gap: 28px; }
+    .b-neo .head p { justify-self: start; }
+    .chip-card.down { margin-top: 0; }
+    .nip-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .nip-grid > :first-child { grid-column: span 2; margin-bottom: 16px; }
+    .neo-row { grid-template-columns: repeat(3, 72vw); overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px; padding: 0 16px 24px; margin: 0 -16px; scrollbar-width: none; }
+    .neo-row figure { scroll-snap-align: center; transform: none !important; }
+    .b-neo { padding-bottom: 72px; }
+    .emma-frame { max-width: 340px; margin-right: 18px; }
+    .eps { grid-template-columns: repeat(4, 70vw); overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px; padding: 0 16px; margin: 0 -16px; scrollbar-width: none; }
+    .eps figure { scroll-snap-align: center; }
+  }
+
+  /* Descriptions */
+  .band .desc, .role .desc { font-size: .98rem; line-height: 1.65; max-width: 460px; margin-top: 16px; color: #B8C2CE; }
+  .b-nippon .desc, .b-emma .desc { color: #4A4F55; }
+  .b-sakthi .desc { margin: 18px auto 0; max-width: 560px; }
+  .b-emma .desc { margin: 0 0 28px; }
+
+  /* ===== Subtle 3D ===== */
+  .gl { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+  .reel .gl { z-index: 1; opacity: .9; }
+  footer { position: relative; overflow: hidden; }
+  footer .gl { z-index: 0; }
+  footer .wrap { position: relative; z-index: 1; }
+  .hero-photo { transform-style: preserve-3d; transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+  .hero-photo .frame { transform: translateZ(28px); }
+  .hero-photo::before { transform: translateZ(-24px); }
+  .hero-photo .tag { transform: translateZ(64px); }
+  .tilt { transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform .5s cubic-bezier(.2,.7,.2,1); will-change: transform; }
+  @media (prefers-reduced-motion: reduce) { .hero-photo, .tilt { transform: none !important; } }
+
+  /* Headshot categories */
+  .cat-label { display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid var(--line); padding-top: 14px; margin-bottom: 18px; font-size: .8rem; color: var(--stone); }
+  .subcat { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 14px; margin: 88px 0 22px; }
+  .subcat h3 { font-stretch: 120%; font-weight: 800; letter-spacing: -.02em; color: var(--navy); font-size: clamp(1.6rem, 3.4vw, 2.6rem); line-height: 1; margin-top: 10px; }
+  .subcat p { color: var(--stone); max-width: 380px; }
+  .hero { position: relative; }
+  .hero > div { position: relative; z-index: 1; }
+  .hero > .gl, .intro > .gl { z-index: 0; }
+  .intro { position: relative; }
+  .intro > div, .intro > p { position: relative; z-index: 1; }
+
+  /* Statement: his words light up as you scroll */
+  .statement { padding: 150px 0 140px; position: relative; }
+  .statement .label { margin-bottom: 36px; display: block; }
+  .statement .words { font-stretch: 112%; font-weight: 600; font-size: clamp(1.7rem, 3.6vw, 3.2rem); line-height: 1.22; letter-spacing: -.015em; color: var(--navy); max-width: 1080px; }
+  .statement .words span { opacity: .14; transition: opacity .35s ease; }
+  .statement .words span.lit { opacity: 1; }
+  .statement .sign { display: flex; align-items: center; gap: 18px; margin-top: 56px; font-stretch: 125%; font-weight: 800; font-size: clamp(1rem, 2vw, 1.5rem); letter-spacing: .02em; text-transform: uppercase; color: var(--brass); }
+  .statement .sign::before { content: ""; width: 64px; height: 1px; background: var(--brass); }
+  .statement .quote { position: absolute; right: 32px; top: 60px; font-stretch: 125%; font-weight: 800; font-size: clamp(10rem, 24vw, 22rem); line-height: .8; color: transparent; -webkit-text-stroke: 1px rgba(154,123,79,.25); pointer-events: none; }
+
+  /* What I do */
+  .craft { display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 14px; }
+  .craft article { position: relative; height: min(76vh, 640px); overflow: hidden; color: var(--ivory); background: var(--charcoal); }
+  .craft article img { transition: transform 1.4s ease, filter .8s; }
+  .craft article:hover img { transform: scale(1.05); }
+  .craft .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,18,22,.05) 30%, rgba(15,18,22,.88)); }
+  .craft .body { position: absolute; left: 0; right: 0; bottom: 0; padding: 32px; z-index: 2; }
+  .craft .n { font-size: .75rem; font-weight: 600; letter-spacing: .14em; color: var(--brass-light); }
+  .craft h3 { font-stretch: 125%; font-weight: 800; font-size: clamp(1.8rem, 3vw, 2.6rem); letter-spacing: -.02em; line-height: 1; margin: 10px 0 0; }
+  .craft p { color: #D3CFC6; font-size: .98rem; max-width: 340px; max-height: 0; opacity: 0; overflow: hidden; transition: max-height .6s ease, opacity .5s ease, margin .6s ease; }
+  .craft article:hover p, .craft article:focus-within p { max-height: 160px; opacity: 1; margin-top: 14px; }
+  .craft .model img { filter: grayscale(1) contrast(1.05); }
+  .craft .model:hover img { filter: grayscale(0); }
+  .craft .crew { background: var(--navy); }
+  .craft .crew .mark { position: absolute; top: 28px; left: 32px; font-stretch: 125%; font-weight: 800; font-size: clamp(7rem, 14vw, 12rem); line-height: .8; color: transparent; -webkit-text-stroke: 1px rgba(201,180,143,.35); }
+  @media (hover: none) { .craft p { max-height: none; opacity: 1; margin-top: 14px; } }
+  @media (max-width: 900px) {
+    .statement { padding: 96px 0; }
+    .statement .quote { right: 16px; top: 40px; }
+    .craft { grid-template-columns: 1fr; }
+    .craft article { height: 460px; }
+  }
+
+  /* Aadukuruvi: poster + still */
+  .role.aad { height: auto; overflow: hidden; padding: 96px 0; background: #121519; }
+  .role.aad .num { position: absolute; top: 28px; right: 32px; font-size: .8rem; color: var(--brass-light); letter-spacing: .12em; }
+  .role.aad::before { content: "AADUKURUVI"; position: absolute; left: 50%; bottom: -2vw; transform: translateX(-50%); font-stretch: 125%; font-weight: 800; font-size: clamp(4rem, 15vw, 14rem); letter-spacing: -.03em; line-height: .8; color: transparent; -webkit-text-stroke: 1px rgba(201,180,143,.12); white-space: nowrap; pointer-events: none; }
+  .aad-grid { position: relative; display: grid; grid-template-columns: minmax(240px, 340px) 1fr; gap: 64px; align-items: center; }
+  .aad-poster { position: relative; aspect-ratio: 700/1076; cursor: zoom-in; box-shadow: 0 34px 70px rgba(0,0,0,.5); transform: rotate(-2.5deg); transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+  .aad-poster:hover { transform: rotate(0deg) scale(1.02); }
+  .aad-poster::after { content: ""; position: absolute; inset: -14px 14px 14px -14px; border: 1px solid rgba(201,180,143,.4); z-index: -1; }
+  .role.aad h3 { font-stretch: 120%; font-weight: 800; letter-spacing: -.02em; font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: .95; margin-top: 4px; }
+  .aad-still { position: relative; aspect-ratio: 1266/492; margin-top: 32px; overflow: hidden; cursor: zoom-in; border: 1px solid rgba(247,245,240,.1); }
+  .aad-still img { transition: transform 1.2s ease; }
+  .aad-still:hover img { transform: scale(1.04); }
+  .aad-note { display: flex; align-items: center; gap: 12px; margin-top: 18px; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: #8C96A3; }
+  .aad-note span { width: 8px; height: 8px; border-radius: 50%; background: var(--brass-light); box-shadow: 0 0 0 4px rgba(201,180,143,.18); }
+  @media (max-width: 900px) {
+    .role.aad { padding: 72px 0; }
+    .role.aad .num { right: 16px; }
+    .aad-grid { grid-template-columns: 1fr; gap: 40px; }
+    .aad-poster { width: 100%; max-width: 260px; margin: 0 auto; }
+  }
+
+  /* Character study photos */
+  .study { display: grid; grid-template-columns: 1.25fr 1fr; gap: 14px; }
+  .study figure { position: relative; overflow: hidden; cursor: zoom-in; aspect-ratio: 5/4; background: var(--charcoal); }
+  .study figure.tall { grid-row: span 2; aspect-ratio: auto; }
+  .study figure.wide { grid-column: span 2; aspect-ratio: 16/10; }
+  .study img { transition: transform 1s ease; }
+  .study figure:hover img { transform: scale(1.04); }
+
+  /* Headshots */
+  .shots { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr; gap: 14px; }
+  .shot { position: relative; aspect-ratio: 4/5; overflow: hidden; cursor: zoom-in; background: var(--ivory-2); }
+  .shot.lead { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; }
+  .shot img { transition: transform 1s ease, filter .6s; }
+  .shot:hover img { transform: scale(1.04); }
+  .shot figcaption { position: absolute; left: 0; bottom: 0; right: 0; padding: 14px 16px; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--ivory); background: linear-gradient(transparent, rgba(0,0,0,.55)); opacity: 0; transform: translateY(6px); transition: opacity .3s, transform .3s; }
+  .shot:hover figcaption { opacity: 1; transform: none; }
+  .shots-foot { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 28px; flex-wrap: wrap; color: var(--stone); font-size: .9rem; }
+  .lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(27,31,36,.95); display: none; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out; }
+  .lightbox.open { display: flex; }
+  .lightbox img { max-height: 90vh; max-width: 92vw; }
+
+  /* About */
+  .about { display: grid; grid-template-columns: 5fr 7fr; gap: 72px; padding-bottom: 32px; align-items: start; }
+  .portrait { position: relative; aspect-ratio: 2/3; overflow: hidden; }
+  .portrait .stamp { position: absolute; right: 16px; bottom: 16px; background: var(--ivory); color: var(--navy); font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; padding: 8px 12px; }
+  .about h3 { font-stretch: 115%; font-weight: 700; color: var(--navy); font-size: 1.6rem; line-height: 1.2; margin-bottom: 20px; }
+  .about .bio p { color: #3A3F45; margin-bottom: 16px; font-size: 1.02rem; }
+  .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; margin-top: 36px; }
+  .fact { padding: 14px 0; border-top: 1px solid var(--line); }
+  .fact dt { font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--stone); margin-bottom: 2px; }
+  .fact dd { color: var(--charcoal); font-size: .95rem; }
+  .fact dd.todo { color: #A8A398; font-style: italic; }
+
+  /* Off camera */
+  .moments { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: start; }
+  .moment { position: relative; aspect-ratio: 4/5; overflow: hidden; cursor: zoom-in; }
+  .moment:nth-child(2) { margin-top: 64px; }
+  .moment img { transition: transform 1s ease; filter: saturate(.85); }
+  .moment:hover img { transform: scale(1.04); filter: none; }
+
+  /* Full credits */
+  .credits { border-top: 1px solid var(--line); margin-bottom: 120px; }
+  .group { border-bottom: 1px solid var(--line); }
+  .group > button { width: 100%; background: none; border: 0; display: flex; justify-content: space-between; align-items: center; padding: 30px 0; cursor: pointer; text-align: left; }
+  .group > button span:first-child { font-stretch: 115%; font-weight: 600; font-size: clamp(1.6rem, 4vw, 3rem); color: var(--navy); letter-spacing: -.01em; transition: color .2s; }
+  .group > button:hover span:first-child { color: var(--brass); }
+  .group .arrow { font-size: 1.8rem; color: var(--brass); transition: transform .3s; }
+  .group.open .arrow { transform: rotate(90deg); }
+  .group .list { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .4s; }
+  .group.open .list { grid-template-rows: 1fr; }
+  .group .list > div { overflow: hidden; }
+  .row { display: grid; grid-template-columns: 2fr 1.6fr 1.6fr; gap: 24px; padding: 16px 0; border-top: 1px solid var(--line); font-size: .95rem; }
+  .row:last-child { margin-bottom: 28px; }
+  .row b { font-weight: 600; color: var(--charcoal); }
+  .row span { color: var(--stone); }
+
+  /* Footer */
+  footer { background: var(--navy); color: #B8C2CE; padding: 110px 0 40px; }
+  footer h2 { font-size: clamp(2.4rem, 7vw, 5.6rem); color: var(--ivory); margin-bottom: 56px; }
+  .contact-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; padding-bottom: 72px; border-bottom: 1px solid rgba(184,194,206,.2); }
+  .contact-grid .label { color: var(--brass-light); margin-bottom: 10px; display: block; }
+  .contact-grid a, .contact-grid p { display: block; color: var(--ivory); font-size: 1rem; margin-bottom: 4px; overflow-wrap: anywhere; }
+  .contact-grid a:hover { color: var(--brass-light); }
+  .contact-grid .muted { color: #8794A3; font-size: .9rem; }
+  .legal { display: flex; justify-content: space-between; padding-top: 28px; font-size: .82rem; color: #8794A3; }
+  .legal span:last-child { color: var(--brass-light); }
+
+  /* Reveal */
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity .8s, transform .8s; }
+  .reveal.in { opacity: 1; transform: none; }
+  .hero-photo.reveal.in { transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: opacity .8s, transform .6s cubic-bezier(.2,.7,.2,1); }
+  @media (prefers-reduced-motion: reduce) { .hero-photo.reveal.in { transform: none; } }
+
+  @media (max-width: 900px) {
+    .wrap { padding: 0 16px; }
+    .menu { display: none; position: absolute; top: 72px; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--ivory); border-bottom: 1px solid var(--line); }
+    .menu.open { display: flex; }
+    .menu a { padding: 16px; border-top: 1px solid var(--line); }
+    .burger { display: block; }
+    .hero { grid-template-columns: 1fr; gap: 56px; padding-top: 40px; padding-bottom: 72px; }
+    .hero-photo { max-width: 440px; width: calc(100% - 20px); }
+    .overlay, .role .overlay { padding: 28px 16px; flex-direction: column; align-items: flex-start; gap: 16px; }
+    .dots, .role.type .num { right: 16px; }
+    .role.type .big { padding: 0 16px; }
+    .shots { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .about { grid-template-columns: 1fr; gap: 40px; }
+    .portrait { max-width: 420px; }
+    .facts { grid-template-columns: 1fr; }
+    .rail { --rail-pad: 16px; gap: 12px; }
+    .tile { flex-basis: 82vw; max-width: 340px; }
+    .tile.wide { flex-basis: 90vw; max-width: 600px; }
+    .rail-block { padding: 48px 0 56px; }
+    .study { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .study figure.tall, .study figure.wide { grid-column: span 2; grid-row: auto; aspect-ratio: 4/5; }
+    .study figure.wide { aspect-ratio: 16/10; }
+    .moments { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .moment:nth-child(2) { margin-top: 32px; }
+    .moment:nth-child(3) { grid-column: span 2; aspect-ratio: 4/3; margin-top: 0; }
+    /* Phone comfort: bigger tap targets and no tiny labels */
+    .burger { padding: 12px 0 12px 16px; margin-right: -4px; }
+    .band .ig, .cap .ig { display: inline-flex; align-items: center; min-height: 40px; padding: 0 2px; }
+    .cap { align-items: center; }
+    .contact-grid a { padding: 8px 0; }
+    .contact-grid .label { margin-bottom: 2px; }
+    .b-tvs .score span, .chips-legend, .chip-card .swatch span, .role.video .soon, .reel .soon, .portrait .stamp { font-size: .75rem; }
+    .b-tvs .score div { padding: 10px 14px; }
+    .role.type { height: auto; min-height: 600px; }
+    .role.type .big { bottom: auto; height: 46%; }
+    .role.video .play { top: 23%; width: 64px; height: 64px; }
+    .role.video .soon { top: calc(23% + 46px); }
+    .moment:nth-child(3) img { object-position: 50% 25%; }
+    .row { grid-template-columns: 1fr; gap: 2px; }
+    .contact-grid { grid-template-columns: 1fr 1fr; }
+    .intro { padding-top: 72px; padding-bottom: 32px; }
+  }
+  @media (max-width: 520px) { .contact-grid { grid-template-columns: 1fr; } .legal { flex-direction: column; gap: 6px; } }
+</style>
+</head>
+<body>
+
+<!-- =====================================================================
+  HOW TO ADD MORE PHOTOS AND VIDEO
+  - Put image files in assets/img and point an <img src="assets/img/…"> at them.
+  - Photos go in photo sections only. The showreel and work cards are for video.
+  - Video files go in assets/video. Aadukuruvi's trailer can replace the still in its card later. Each brand has its own <article class="band …"> in the Work section.
+====================================================================== -->
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#top" class="mono">R<span>K</span></a>
+    <button class="burger" id="burger" aria-label="Open menu">Menu</button>
+    <nav class="menu" id="menu">
+      <a href="#work">Work</a>
+      <a href="#headshots">Headshots</a>
+      <a href="#craft">What I do</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="cta">Let's talk ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <canvas class="gl" id="lensGL" aria-hidden="true"></canvas>
+    <div>
+      <div class="label reveal">Rishi Kiran · Actor · Model · Assistant Director</div>
+      <h1 class="display reveal">Both sides<br>of the <em>frame.</em></h1>
+      <div class="reveal">
+        <p>Based in Chennai, working across television, commercials, web and vertical series, short films and theatre, in front of the camera and behind it.</p>
+        <div class="hero-links">
+          <a href="#work" class="btn solid">View work</a>
+          <a href="assets/Rishi_Kiran_Resume.pdf" class="btn" download>Download résumé ↓</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="frame"><img class="cover" src="assets/img/about.jpg" alt="Rishi Kiran smiling, warm studio portrait" fetchpriority="high" style="object-position:50% 30%"></div>
+    </div>
+  </section>
+
+  <section class="reel" id="reel" aria-label="Showreel">
+    <div class="big" aria-hidden="true">SHOWREEL</div>
+    <canvas class="gl" id="reelGL" aria-hidden="true"></canvas>
+    <div class="play" aria-hidden="true"></div>
+    <div class="soon" id="reelNote">Showreel coming soon</div>
+    <div class="overlay">
+      <div><div class="yr">2026</div><h3>Acting Showreel</h3></div>
+      <div class="dur">Rishi Kiran</div>
+    </div>
+  </section>
+
+  <section class="statement" id="statement" aria-label="Artist statement">
+    <div class="quote" aria-hidden="true">“</div>
+    <div class="wrap">
+      <span class="label reveal">In his words</span>
+      <p class="words">Portrayal of characters and seeing life through a script is something I have always found fascinating. I am constantly experimenting with my versatility in the field, without limits or restrictions.</p>
+      <p class="sign">My art is my statement, and always will be.</p>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap intro">
+      <canvas class="gl" id="stripGL" aria-hidden="true"></canvas>
+      <div class="reveal"><div class="label">Selected work</div><h2 class="display">Characters, screens<br>and stages.</h2></div>
+      <p class="reveal">From a television antagonist to brand films and the theatre floor.</p>
+    </div>
+
+    <!-- 01 · TVS Jupiter -->
+    <article class="band b-tvs">
+      <div class="ghost" aria-hidden="true">JUPITER</div>
+      <div class="wrap">
+        <div class="head">
+          <div><div class="eyebrow">01 · Commercial · Two-wheeler</div><h3>TVS Jupiter<em>ft. MS Dhoni</em></h3></div>
+          <div class="score"><div><b>02</b><span>Films</span></div><div><b>0:20</b><span>Each</span></div><div><b>TVC</b><span>Format</span></div></div>
+        </div>
+        <div class="tvs-grid">
+          <figure><div class="v169"><video src="assets/video/tvs-1.mp4" poster="assets/video/tvs-1.jpg" controls playsinline preload="none" title="TVS Jupiter, film 1"></video></div><div class="cap"><span><b>Film 01</b> · Stadium</span><a class="ig" href="https://www.instagram.com/reel/DJMClgMKIqk/" target="_blank" rel="noopener" style="margin:0">Instagram ↗</a></div></figure>
+          <figure class="side"><div class="v169"><video src="assets/video/tvs-2.mp4" poster="assets/video/tvs-2.jpg" controls playsinline preload="none" title="TVS Jupiter, film 2"></video></div><div class="cap" style="margin-top:20px"><span><b>Film 02</b> · Alternate cut</span><a class="ig" href="https://www.instagram.com/reel/DJEVBq4sqxw/" target="_blank" rel="noopener" style="margin:0">Instagram ↗</a></div><p>A cricket-themed television campaign for TVS Jupiter, set in a packed stadium and shot alongside MS Dhoni. Rishi appears as a commercial actor across two 20-second cuts of the spot.</p></figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- 02 · Nippon Paint -->
+    <article class="band b-nippon">
+      <div class="wrap nip-grid">
+        <div>
+          <div class="eyebrow">02 · Commercial · Paints</div>
+          <h3>Nippon<br>Paint</h3>
+          <div class="meta">Commercial actor · 2 films</div>
+          <p class="desc">Two short films for Nippon Paint set in everyday home situations. Rishi plays natural, relatable characters, with the product at the heart of each story and the humour kept light and conversational.</p>
+          <div class="chips-row" aria-hidden="true"><i style="background:#1F2D3D"></i><i style="background:#2A3B4F"></i><i style="background:#9A7B4F"></i><i style="background:#C9B48F"></i><i style="background:#E4E1DA"></i></div>
+          <div class="chips-legend"><span>Ink</span><span>Brass</span><span>Ivory</span></div>
+        </div>
+        <figure class="chip-card"><div class="v916"><video src="assets/video/nippon-1.mp4" poster="assets/video/nippon-1.jpg" controls playsinline preload="none" title="Nippon Paint, film 1"></video></div><div class="swatch"><b>Film 01</b><span>NP · 0:20</span></div><div class="tone" style="background:#9A7B4F"></div></figure>
+        <figure class="chip-card down"><div class="v916"><video src="assets/video/nippon-2.mp4" poster="assets/video/nippon-2.jpg" controls playsinline preload="none" title="Nippon Paint, film 2"></video></div><div class="swatch"><b>Film 02</b><span>NP · 0:21</span></div><div class="tone" style="background:#1F2D3D"></div></figure>
+      </div>
+    </article>
+
+    <!-- 03 · NeoMotion -->
+    <article class="band b-neo">
+      <div class="marquee" aria-hidden="true"><span>MOVEMENT · FREEDOM · MOTION · </span><span>MOVEMENT · FREEDOM · MOTION · </span></div>
+      <div class="wrap">
+        <div class="head">
+          <div><div class="eyebrow">03 · Brand films · Mobility</div><h3>NeoMotion</h3></div>
+          <p>Lead in a three-part campaign for NeoMotion, a mobility brand. Rishi portrays a wheelchair user moving through daily life with ease and independence, carrying each film from first frame to last.</p>
+        </div>
+        <div class="neo-row">
+          <figure><div class="v916"><video src="assets/video/neomotion-1.mp4" poster="assets/video/neomotion-1.jpg" controls playsinline preload="none" title="NeoMotion, film 1"></video></div><div class="cap"><span><b>01</b> · 0:21</span><a class="ig" href="https://www.instagram.com/reel/DO8lonCj5e4/" target="_blank" rel="noopener" style="margin:0">↗</a></div></figure>
+          <figure><div class="v916"><video src="assets/video/neomotion-2.mp4" poster="assets/video/neomotion-2.jpg" controls playsinline preload="none" title="NeoMotion, film 2"></video></div><div class="cap"><span><b>02</b> · 0:24</span><a class="ig" href="https://www.instagram.com/reel/DOXw8anjtoy/" target="_blank" rel="noopener" style="margin:0">↗</a></div></figure>
+          <figure><div class="v916"><video src="assets/video/neomotion-3.mp4" poster="assets/video/neomotion-3.jpg" controls playsinline preload="none" title="NeoMotion, film 3"></video></div><div class="cap"><span><b>03</b> · 0:23</span><a class="ig" href="https://www.instagram.com/reel/DM-brFkC67p/" target="_blank" rel="noopener" style="margin:0">↗</a></div></figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- 04 · Adrenaline -->
+    <article class="band b-adr">
+      <div class="wrap adr-grid">
+        <div>
+          <div class="adr-num" aria-hidden="true">04</div>
+          <div class="eyebrow" style="margin-top:24px">Startup brand film</div>
+          <h3>Adrenaline</h3>
+          <p>A light, tongue-in-cheek workplace film for a startup brand. The piece rests on comic timing and reactions, with Rishi playing an office regular caught up in everyday workplace antics.</p>
+          <a class="ig" href="https://www.instagram.com/reel/C3P2BmCRsMC/" target="_blank" rel="noopener">Also on Instagram ↗</a>
+        </div>
+        <div class="stage"><div class="phone"><div class="v916"><video src="assets/video/adrenaline-1.mp4" poster="assets/video/adrenaline-1.jpg" controls playsinline preload="none" title="Adrenaline brand film"></video></div></div></div>
+      </div>
+    </article>
+
+    <!-- 05 · Emma Mattress -->
+    <article class="band b-emma">
+      <div class="wrap emma-grid">
+        <div>
+          <div class="eyebrow">05 · Brand film · Sleep</div>
+          <h3>Emma<br>Mattress</h3>
+          <p class="desc">A short brand film for Emma mattresses, built around a warm family moment and a surprise gift. Rishi plays a friend on the other end of the phone, bringing an easy, conversational rhythm to the story.</p>
+          <div class="rule"><div>Role<b>Commercial actor</b></div><div>Format<b>Vertical film</b></div><div>Length<b>2:47</b></div></div>
+          <a class="ig" href="https://www.instagram.com/reel/DfM2CbLP2ed/" target="_blank" rel="noopener">Also on Instagram ↗</a>
+        </div>
+        <figure class="emma-frame"><div class="v916"><video src="assets/video/emma-1.mp4" poster="assets/video/emma-1.jpg" controls playsinline preload="none" title="Emma Mattress brand film"></video></div><figcaption>Film 01 · Emma</figcaption></figure>
+      </div>
+    </article>
+
+    <!-- 06 · Sakthi Masala -->
+    <article class="band b-sakthi">
+      <div class="wrap">
+        <div class="head">
+          <div class="eyebrow">06 · Vertical series</div>
+          <h3>Sakthi Masala</h3>
+          <div class="meta"><b>Bachelor's Samayal</b> · as Karuthu Karthi · Trailer + 3 episodes</div>
+          <p class="desc">A three-episode vertical comedy series for Sakthi Masala, following a group of bachelor roommates as they find their way around the kitchen. Written and shot for mobile-first viewing, with Rishi as part of the core cast, playing Karuthu Karthi.</p>
+        </div>
+        <div class="eps">
+          <figure class="trailer"><div class="ep-num">00</div><div class="v916"><video src="assets/video/sakthi-trailer.mp4" poster="assets/video/sakthi-trailer.jpg" controls playsinline preload="none" title="Sakthi Masala, series trailer"></video></div><div class="cap"><span><b>Trailer</b></span><span>0:25</span></div></figure>
+          <figure><div class="ep-num">01</div><div class="v916"><video src="assets/video/sakthi-1.mp4" poster="assets/video/sakthi-1.jpg" controls playsinline preload="none" title="Sakthi Masala, episode 1"></video></div><div class="cap"><span><b>Episode 1</b></span><span>2:26</span></div></figure>
+          <figure><div class="ep-num">02</div><div class="v916"><video src="assets/video/sakthi-2.mp4" poster="assets/video/sakthi-2.jpg" controls playsinline preload="none" title="Sakthi Masala, episode 2"></video></div><div class="cap"><span><b>Episode 2</b></span><span>2:56</span></div></figure>
+          <figure><div class="ep-num">03</div><div class="v916"><video src="assets/video/sakthi-3.mp4" poster="assets/video/sakthi-3.jpg" controls playsinline preload="none" title="Sakthi Masala, episode 3"></video></div><div class="cap"><span><b>Episode 3</b></span><span>2:06</span></div></figure>
+        </div>
+      </div>
+    </article>
+
+    <article class="role type video" data-video="rudhra">
+      <div class="big" aria-hidden="true">RUDHRA</div>
+      <div class="num">07</div>
+      <div class="play" aria-hidden="true"></div>
+      <div class="soon">Video coming soon</div>
+      <div class="overlay">
+        <div><div class="kind">Television serial · Kalaignar TV</div><h3>Rudhra</h3><div class="as">Negative lead</div><p class="desc">Rishi plays the negative lead in this Kalaignar TV serial: a character-driven antagonist role built on a clear, commanding screen presence.</p></div>
+      </div>
+    </article>
+
+    <article class="role aad">
+      <div class="num">08</div>
+      <div class="wrap aad-grid">
+        <figure class="aad-poster"><img class="cover" src="assets/img/aadukuruvi-poster.jpg" alt="Aadukuruvi official poster" loading="lazy"></figure>
+        <div class="aad-text">
+          <div class="kind">Web series · Crime thriller · Releasing soon</div>
+          <h3>Aadukuruvi</h3>
+          <div class="as">Cast · Stri Cinemas</div>
+          <p class="desc">A crime thriller set in the dark world of online scams. When a group of scam artists aim for one big hit, things go sideways and they cross paths with a ruthless gangster.</p>
+          <figure class="aad-still"><img class="cover" src="assets/img/aadukuruvi-still.jpg" alt="Still from Aadukuruvi: four men aiming pistols in a city street" loading="lazy"></figure>
+          <div class="aad-note"><span></span>Trailer coming soon</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="role type video" data-video="untitled">
+      <div class="big" aria-hidden="true">UNTITLED</div>
+      <div class="num">09</div>
+      <div class="play" aria-hidden="true"></div>
+      <div class="soon">Video coming soon</div>
+      <div class="overlay">
+        <div><div class="kind">Feature film · Suresh Mari / Manikandan</div><h3>Untitled Project</h3><div class="as">Assistant director · supporting role</div><p class="desc">An upcoming feature associated with Suresh Mari and Manikandan. Rishi works on both sides of the camera: as assistant director coordinating junior artists on set, and on screen in a supporting role.</p></div>
+      </div>
+    </article>
+  </section>
+
+  <section id="headshots">
+    <div class="wrap intro">
+      <div class="reveal"><div class="label">Headshots</div><h2 class="display">Casting-ready.</h2></div>
+      <p class="reveal">Low key, high key, colour and natural light. Click any photo to view it full size.</p>
+    </div>
+    <div class="wrap">
+      <div class="cat-label reveal"><span class="label">Portraits</span><span>05 looks</span></div>
+      <div class="shots reveal">
+        <figure class="shot lead"><img class="cover" src="assets/img/headshot-1.jpg" alt="Rishi Kiran, low-key studio headshot" loading="lazy" style="object-position:50% 25%"><figcaption>Studio · Low key</figcaption></figure>
+        <figure class="shot"><img class="cover" src="assets/img/headshot-2.jpg" alt="Rishi Kiran, black and white high-key portrait" loading="lazy"><figcaption>Studio · High key</figcaption></figure>
+        <figure class="shot"><img class="cover" src="assets/img/headshot-4.jpg" alt="Rishi Kiran in a white shirt against a warm backdrop" loading="lazy"><figcaption>Warm · Classic</figcaption></figure>
+        <figure class="shot"><img class="cover" src="assets/img/headshot-6.jpg" alt="Rishi Kiran against a teal backdrop" loading="lazy"><figcaption>Colour · Teal</figcaption></figure>
+        <figure class="shot"><img class="cover" src="assets/img/headshot-5.jpg" alt="Rishi Kiran in a checked shirt" loading="lazy"><figcaption>Natural · Casual</figcaption></figure>
+      </div>
+      <div class="shots-foot"><span>High-resolution files available on request.</span><a href="assets/Rishi_Kiran_Headshots.zip" class="btn" download>Download headshots ↓</a></div>
+
+      <div class="subcat reveal" id="character">
+        <div><div class="label">Character study</div><h3>Becoming the Joker.</h3></div>
+        <p>A photo series built on transformation: wardrobe, makeup and physicality, shot on location across Chennai.</p>
+      </div>
+      <div class="study reveal">
+        <figure class="tall"><img class="cover" src="assets/img/character-1.jpg" alt="Rishi as the Joker walking through a metro station" loading="lazy" style="object-position:50% 60%"></figure>
+        <figure><img class="cover" src="assets/img/character-2.jpg" alt="Rishi as the Joker descending a metro staircase" loading="lazy"></figure>
+        <figure><img class="cover" src="assets/img/character-4.jpg" alt="Rishi as the Joker on a steel footbridge" loading="lazy" style="object-position:50% 55%"></figure>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="craft">
+    <div class="wrap intro">
+      <div class="reveal"><div class="label">What I do</div><h2 class="display">In front of the lens,<br>and behind it.</h2></div>
+      <p class="reveal">Hover a panel to read more.</p>
+    </div>
+    <div class="wrap craft reveal">
+      <article tabindex="0">
+        <img class="cover" src="assets/img/headshot-1.jpg" alt="Rishi Kiran in a low-key studio portrait" loading="lazy" style="object-position:50% 20%">
+        <div class="shade"></div>
+        <div class="body"><div class="n">01</div><h3>Acting</h3><p>Expressing the Navarasa, the nine emotions, to the best of his ability and in many forms, shaping each performance to suit the imagination of the creator.</p></div>
+      </article>
+      <article class="model" tabindex="0">
+        <img class="cover" src="assets/img/headshot-2.jpg" alt="Rishi Kiran in a black and white portrait" loading="lazy" style="object-position:50% 15%">
+        <div class="shade"></div>
+        <div class="body"><div class="n">02</div><h3>Modeling</h3><p>Working with brands to build a story around them: being the face of it, and making heads turn.</p></div>
+      </article>
+      <article class="crew" tabindex="0">
+        <div class="mark" aria-hidden="true">AD</div>
+        <div class="body"><div class="n">03</div><h3>Behind the camera</h3><p>Assistant direction, junior artist coordination, video editing and production management, so he knows how a set runs from every side.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap intro">
+      <div class="reveal"><div class="label">About</div><h2 class="display">Rishi Kiran.</h2></div>
+    </div>
+    <div class="wrap about">
+      <div class="portrait reveal"><img class="cover" src="assets/img/hero.jpg" alt="Rishi Kiran, studio portrait in a dark leather jacket" loading="lazy"><div class="stamp">Actor · AD</div></div>
+      <div class="reveal">
+        <h3>A storyteller who knows the set from every angle.</h3>
+        <div class="bio">
+          <p>Rishi Kiran is a Chennai-based actor whose work spans television, commercials, web and vertical series, short films and theatre. His negative lead in Kalaignar TV's <em>Rudhra</em> showed a clear, unsettling screen presence, and his commercial work includes TVS Jupiter alongside MS Dhoni.</p>
+          <p>He trained in theatre with Jaya Rao Master at Actors Workstation, known for his work on <em>Jai Bhim</em> and <em>Madras</em>, and works behind the camera as an assistant director, junior artist coordinator, editor and production manager, including projects with Suresh Mari and Manikandan.</p>
+          <p>He brings authenticity, discipline and a distinctive energy to every project, and treats each role as a chance to learn and leave a lasting impression.</p>
+        </div>
+        <dl class="facts">
+          <div class="fact"><dt>Based in</dt><dd>Chennai, India</dd></div>
+          <!-- Fill in and uncomment when ready:
+          <div class="fact"><dt>Languages</dt><dd>Tamil, English</dd></div>
+          <div class="fact"><dt>Height</dt><dd>5′10″</dd></div>
+          <div class="fact"><dt>Playing age</dt><dd>22–30</dd></div>
+          -->
+          <div class="fact"><dt>Theatre training</dt><dd>Actors Workstation · Jaya Rao Master</dd></div>
+          <div class="fact"><dt>Film training</dt><dd>MGR Film Institute (diploma projects)</dd></div>
+          <div class="fact"><dt>Behind the camera</dt><dd>Assistant direction, editing, production</dd></div>
+          <div class="fact"><dt>Education</dt><dd>B.Tech IT · Sri Venkateswara College of Engineering</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap intro">
+      <div class="reveal"><div class="label">Off camera</div><h2 class="display">Sets, workshops<br>and good company.</h2></div>
+    </div>
+    <div class="wrap moments reveal">
+      <figure class="moment"><img class="cover" src="assets/img/moment-1.jpg" alt="Rishi Kiran at an industry event" loading="lazy"></figure>
+      <figure class="moment"><img class="cover" src="assets/img/moment-2.jpg" alt="Rishi Kiran in a yellow hoodie at a studio" loading="lazy"></figure>
+      <figure class="moment"><img class="cover" src="assets/img/moment-3.jpg" alt="Rishi Kiran with a friend outdoors" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap intro">
+      <canvas class="gl" id="clapGL" aria-hidden="true"></canvas>
+      <div class="reveal"><div class="label">The full credits</div><h2 class="display">Everything, in one place.</h2></div>
+    </div>
+    <div class="wrap">
+      <div class="credits">
+        <div class="group">
+          <button><span>Television &amp; series</span><span class="arrow">↗</span></button>
+          <div class="list"><div>
+            <div class="row"><b>Rudhra</b><span>Television serial · Kalaignar TV</span><span>Negative lead</span></div>
+            <div class="row"><b>Aadukuruvi</b><span>Crime thriller web series · releasing soon</span><span>Cast</span></div>
+            <div class="row"><b>Sakthi Masala</b><span>Vertical series · Bachelor's Samayal · 3 episodes</span><span>Karuthu Karthi</span></div>
+          </div></div>
+        </div>
+        <div class="group">
+          <button><span>Film</span><span class="arrow">↗</span></button>
+          <div class="list"><div>
+            <div class="row"><b>Untitled Project</b><span>Suresh Mari / Manikandan</span><span>Supporting role · Assistant director</span></div>
+            <div class="row"><b>Diploma short films (2)</b><span>MGR Film Institute</span><span>Cast</span></div>
+            <div class="row"><b>3BHK</b><span>Feature film</span><span>Junior artist</span></div>
+            <div class="row"><b>4 Idiots</b><span>Feature film</span><span>Junior artist</span></div>
+            <div class="row"><b>Driver Jamuna</b><span>Feature film</span><span>Junior artist</span></div>
+          </div></div>
+        </div>
+        <div class="group">
+          <button><span>Commercials</span><span class="arrow">↗</span></button>
+          <div class="list"><div>
+            <div class="row"><b>TVS Jupiter ft. MS Dhoni</b><span>Television commercial</span><span>Commercial actor</span></div>
+            <div class="row"><b>Nippon Paint</b><span>Commercials (2)</span><span>Commercial actor</span></div>
+            <div class="row"><b>NeoMotion</b><span>Brand films (3)</span><span>Commercial actor</span></div>
+            <div class="row"><b>Adrenaline</b><span>Startup brand film</span><span>Commercial actor</span></div>
+            <div class="row"><b>Emma Mattress</b><span>Brand film</span><span>Commercial actor</span></div>
+          </div></div>
+        </div>
+        <div class="group">
+          <button><span>Theatre &amp; training</span><span class="arrow">↗</span></button>
+          <div class="list"><div>
+            <div class="row"><b>Actors Workstation</b><span>Theatre with Jaya Rao Master</span><span>Performance &amp; character work</span></div>
+            <div class="row"><b>MGR Film Institute</b><span>Diploma final-year projects</span><span>Screen performance</span></div>
+            <div class="row"><b>Sri Venkateswara College of Engineering</b><span>B.Tech IT</span><span>2017–2021</span></div>
+          </div></div>
+        </div>
+        <div class="group">
+          <button><span>Behind the camera</span><span class="arrow">↗</span></button>
+          <div class="list"><div>
+            <div class="row"><b>Untitled Project</b><span>Suresh Mari / Manikandan</span><span>Assistant director · junior artist coordination</span></div>
+            <div class="row"><b>Ashtag</b><span>Production</span><span>Video editor &amp; production manager</span></div>
+            <div class="row"><b>Ashtag</b><span>Sales</span><span>Sales intern · 6 months</span></div>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <canvas class="gl" id="dustGL" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <h2 class="display reveal" style="color:var(--ivory)">Let's make<br>something.</h2>
+    <div class="contact-grid">
+      <div><span class="label">Email</span><a href="mailto:rishikirandronework@gmail.com">rishikirandronework@gmail.com</a></div>
+      <div><span class="label">Phone</span><a href="tel:+919840468339">+91 98404 68339</a><p class="muted">Chennai, India</p></div>
+      <div><span class="label">Follow</span><a href="https://www.instagram.com/rishikiran_rk/" target="_blank" rel="noopener">@rishikiran_rk ↗</a><p class="muted">Instagram</p></div>
+      <div><span class="label">Downloads</span><a href="assets/Rishi_Kiran_Resume.pdf" download>Résumé (PDF) ↓</a><a href="assets/Rishi_Kiran_Headshots.zip" download>Headshots (ZIP) ↓</a></div>
+    </div>
+    <div class="legal"><span>Rishi Kiran · Actor &amp; Assistant Director</span><span>© <span id="yr"></span></span></div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox"><img alt=""></div>
+
+<script>
+  // ===== VIDEO LINKS =====
+  // Paste YouTube or Vimeo links between the quotes. Normal links work
+  // (youtube.com/watch?v=..., youtu.be/..., youtube.com/shorts/..., vimeo.com/...).
+  const VIDEOS = {
+    reel:        "",   // Acting showreel
+    rudhra:      "",   // Rudhra (Kalaignar TV)
+    aadukuruvi:  "",   // Aadukuruvi
+    untitled:    "",   // Untitled project
+  };
+
+  // Only one video plays at a time
+  document.addEventListener('play', e => {
+    document.querySelectorAll('video').forEach(v => { if (v !== e.target) v.pause(); });
+  }, true);
+
+  function toEmbed(url) {
+    if (!url) return "";
+    let m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/|live\/))([\w-]{11})/);
+    if (m) return `https://www.youtube.com/embed/${m[1]}?autoplay=1&rel=0&modestbranding=1`;
+    m = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+    if (m) return `https://player.vimeo.com/video/${m[1]}?autoplay=1`;
+    return url;
+  }
+  function wireVideo(el, key) {
+    const src = toEmbed(VIDEOS[key]);
+    if (!src) return;
+    el.classList.add('ready');
+    el.addEventListener('click', () => {
+      if (el.querySelector('iframe')) return;
+      el.insertAdjacentHTML('beforeend', `<iframe src="${src}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`);
+    });
+  }
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  const menu = document.getElementById('menu');
+  document.getElementById('burger').onclick = () => menu.classList.toggle('open');
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
+
+  if (VIDEOS.reel) document.getElementById('reelNote').remove();
+  wireVideo(document.getElementById('reel'), 'reel');
+  document.querySelectorAll('.role.video').forEach(c => wireVideo(c, c.dataset.video));
+
+  document.querySelectorAll('.group > button').forEach(b =>
+    b.addEventListener('click', () => b.parentElement.classList.toggle('open')));
+
+  const lb = document.getElementById('lightbox');
+  document.querySelectorAll('.shot, .moment, .study figure, .aad-poster, .aad-still').forEach(s => s.addEventListener('click', () => {
+    const img = s.querySelector('img');
+    if (!img) return;
+    lb.querySelector('img').src = img.src;
+    lb.querySelector('img').alt = img.alt;
+    lb.classList.add('open');
+  }));
+  lb.onclick = () => lb.classList.remove('open');
+  addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('open'); });
+
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+<script>
+  // Statement: words light up as the section scrolls through view
+  (() => {
+    const el = document.querySelector('.statement .words');
+    if (!el) return;
+    el.innerHTML = el.textContent.trim().split(/\s+/).map(w => `<span>${w}</span>`).join(' ');
+    const spans = [...el.children];
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { spans.forEach(s => s.classList.add('lit')); return; }
+    const update = () => {
+      const r = el.getBoundingClientRect(), vh = innerHeight;
+      const p = Math.min(1, Math.max(0, (vh * .85 - r.top) / (r.height + vh * .45)));
+      const n = Math.round(p * spans.length);
+      spans.forEach((s, i) => s.classList.toggle('lit', i < n));
+    };
+    addEventListener('scroll', update, { passive: true }); addEventListener('resize', update); update();
+  })();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+  // ===== Subtle 3D: film reel, projector dust, tilt =====
+  (() => {
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const finePointer = matchMedia('(hover: hover) and (pointer: fine)').matches;
+    const BRASS = 0xC9B48F;
+
+    // Tilt: hero portrait and video frames follow the pointer a few degrees
+    if (finePointer && !reduce) {
+      const tilt = (el, max) => {
+        el.addEventListener('pointermove', e => {
+          const r = el.getBoundingClientRect();
+          const x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+          el.style.setProperty('--ry', (x * max).toFixed(2) + 'deg');
+          el.style.setProperty('--rx', (-y * max).toFixed(2) + 'deg');
+        });
+        el.addEventListener('pointerleave', () => { el.style.setProperty('--ry', '0deg'); el.style.setProperty('--rx', '0deg'); });
+      };
+      tilt(document.querySelector('.hero-photo'), 10);
+      document.querySelectorAll('.chip-card, .phone, .neo-row .v916, .eps .v916, .tvs-grid .v169').forEach(el => { el.classList.add('tilt'); tilt(el, 6); });
+    }
+
+    if (!window.THREE) return;
+
+    // Shared scene runner: renders only while on screen, one static frame if reduced motion
+    function stage(canvas, setup) {
+      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, powerPreference: 'low-power' });
+      renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(40, 1, .1, 100);
+      camera.position.z = 9;
+      const mouse = { x: 0, y: 0 };
+      const tick = setup(scene, camera, mouse);
+      const size = () => {
+        const w = canvas.clientWidth, h = canvas.clientHeight;
+        if (!w || !h) return;
+        renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+        renderer.render(scene, camera);
+      };
+      new ResizeObserver(size).observe(canvas); size();
+      canvas.parentElement.addEventListener('pointermove', e => {
+        const r = canvas.getBoundingClientRect();
+        mouse.x = (e.clientX - r.left) / r.width - .5; mouse.y = (e.clientY - r.top) / r.height - .5;
+      });
+      let on = false, raf, last = performance.now();
+      const loop = t => { const dt = Math.min((t - last) / 1000, .05); last = t; tick(dt, t / 1000); renderer.render(scene, camera); if (on) raf = requestAnimationFrame(loop); };
+      if (reduce) { tick(0, 0); renderer.render(scene, camera); return; }
+      new IntersectionObserver(([e]) => {
+        on = e.isIntersecting; cancelAnimationFrame(raf);
+        if (on) { last = performance.now(); raf = requestAnimationFrame(loop); }
+      }).observe(canvas);
+    }
+
+    const circle = (r, seg = 96) => {
+      const pts = [];
+      for (let i = 0; i <= seg; i++) { const a = i / seg * Math.PI * 2; pts.push(new THREE.Vector3(Math.cos(a) * r, Math.sin(a) * r, 0)); }
+      return new THREE.BufferGeometry().setFromPoints(pts);
+    };
+
+    // Showreel: a wireframe film reel turning slowly
+    const reelCanvas = document.getElementById('reelGL');
+    if (reelCanvas) stage(reelCanvas, (scene, camera, mouse) => {
+      const mat = new THREE.LineBasicMaterial({ color: BRASS, transparent: true, opacity: .32 });
+      const faint = new THREE.LineBasicMaterial({ color: BRASS, transparent: true, opacity: .14 });
+      const reel = new THREE.Group();
+      [-.32, .32].forEach(z => {
+        const flange = new THREE.Group();
+        flange.add(new THREE.Line(circle(2.6), mat));
+        flange.add(new THREE.Line(circle(2.45), faint));
+        flange.add(new THREE.Line(circle(.62), mat));
+        flange.add(new THREE.Line(circle(.28, 48), faint));
+        for (let i = 0; i < 6; i++) {
+          const a = i / 6 * Math.PI * 2, hole = new THREE.Line(circle(.58, 64), mat);
+          hole.position.set(Math.cos(a) * 1.5, Math.sin(a) * 1.5, 0); flange.add(hole);
+        }
+        flange.position.z = z; reel.add(flange);
+      });
+      const edge = [];
+      for (let i = 0; i < 48; i++) { const a = i / 48 * Math.PI * 2; edge.push(new THREE.Vector3(Math.cos(a) * 2.6, Math.sin(a) * 2.6, -.32), new THREE.Vector3(Math.cos(a) * 2.6, Math.sin(a) * 2.6, .32)); }
+      reel.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(edge), faint));
+      // film ribbon unspooling off the reel
+      const ribbon = [];
+      for (let i = 0; i <= 80; i++) { const t = i / 80; ribbon.push(new THREE.Vector3(2.6 + t * 7, -2.6 * (1 - t) + Math.sin(t * 5) * .5 - t * 1.2, Math.sin(t * 3) * .6)); }
+      const ribbonA = new THREE.Line(new THREE.BufferGeometry().setFromPoints(ribbon), faint);
+      const ribbonB = new THREE.Line(new THREE.BufferGeometry().setFromPoints(ribbon.map(v => v.clone().add(new THREE.Vector3(0, .35, 0)))), faint);
+      const holder = new THREE.Group(); holder.add(reel, ribbonA, ribbonB);
+      scene.add(holder);
+      const place = () => { const wide = camera.aspect > 1.2; holder.position.x = wide ? Math.min(3.2, camera.aspect * 1.55) : 0; holder.position.y = wide ? .5 : 1.6; holder.scale.setScalar(wide ? .82 : .62); };
+      return (dt, t) => {
+        place();
+        reel.rotation.z -= dt * .18;
+        holder.rotation.y += ((mouse.x * .5 - .35) - holder.rotation.y) * .04;
+        holder.rotation.x += ((mouse.y * .3 + .15) - holder.rotation.x) * .04;
+        holder.position.y += Math.sin(t * .6) * .002;
+      };
+    });
+
+
+    const NAVY = 0x1F2D3D;
+    const lineMat = (o, c = NAVY) => new THREE.LineBasicMaterial({ color: c, transparent: true, opacity: o });
+    const seg = pts => new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(pts), undefined);
+    const V = (x, y, z = 0) => new THREE.Vector3(x, y, z);
+
+    // Hero: a camera lens barrel floating behind the headline
+    const lensCanvas = document.getElementById('lensGL');
+    if (lensCanvas) stage(lensCanvas, (scene, camera, mouse) => {
+      const lens = new THREE.Group();
+      const radii = [1.9, 1.75, 1.55, 1.35, 1.2];
+      radii.forEach((r, i) => { const ring = new THREE.Line(circle(r), lineMat(i === 0 ? .2 : .11)); ring.position.z = i * .35; lens.add(ring); });
+      // knurled focus ring
+      const knurl = [];
+      for (let i = 0; i < 72; i++) { const a = i / 72 * Math.PI * 2; knurl.push(V(Math.cos(a) * 1.9, Math.sin(a) * 1.9, 0), V(Math.cos(a) * 1.9, Math.sin(a) * 1.9, .35)); }
+      lens.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(knurl), lineMat(.09)));
+      // iris blades
+      const iris = new THREE.Group(), blades = 7;
+      for (let i = 0; i < blades; i++) {
+        const a = i / blades * Math.PI * 2, b = a + Math.PI * 2 / blades * 1.6;
+        iris.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([V(Math.cos(a) * 1.15, Math.sin(a) * 1.15), V(Math.cos(b) * .42, Math.sin(b) * .42)]), lineMat(.16)));
+      }
+      iris.position.z = 1.45; lens.add(iris);
+      const holder = new THREE.Group(); holder.add(lens); scene.add(holder);
+      return (dt, t) => {
+        const wide = camera.aspect > 1.2;
+        holder.position.set(wide ? 0.6 : 1.6, wide ? 1.2 : 2.6, -1);
+        holder.scale.setScalar(wide ? 1 : .7);
+        iris.rotation.z += dt * .12;
+        holder.rotation.y += ((mouse.x * .6 + .35) - holder.rotation.y) * .04;
+        holder.rotation.x += ((mouse.y * .4 - .25) - holder.rotation.x) * .04;
+        holder.position.y += Math.sin(t * .5) * .1;
+      };
+    });
+
+    // Selected work: a strip of film curling through space
+    const stripCanvas = document.getElementById('stripGL');
+    if (stripCanvas) stage(stripCanvas, (scene, camera, mouse) => {
+      const g = new THREE.Group(); scene.add(g);
+      const build = phase => {
+        g.clear();
+        const path = u => V(u * 14 - 7, Math.sin(u * 3.2 + phase) * .9, Math.cos(u * 2.4 + phase) * 1.4);
+        const top = [], bot = [], holes = [];
+        for (let i = 0; i <= 120; i++) { const p = path(i / 120); top.push(p.clone().add(V(0, .45, 0))); bot.push(p.clone().add(V(0, -.45, 0))); }
+        for (let i = 0; i < 40; i++) {
+          const p = path((i + .5) / 40);
+          [.33, -.33].forEach(o => holes.push(p.clone().add(V(-.06, o - .05, 0)), p.clone().add(V(.06, o - .05, 0)), p.clone().add(V(.06, o - .05, 0)), p.clone().add(V(.06, o + .05, 0))));
+          if (i % 4 === 0) holes.push(p.clone().add(V(0, .45, 0)), p.clone().add(V(0, -.45, 0)));
+        }
+        g.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(top), lineMat(.16)));
+        g.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(bot), lineMat(.16)));
+        g.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(holes), lineMat(.1)));
+      };
+      let acc = 0;
+      return (dt, t) => {
+        acc += dt; if (acc > 1 / 30 || t === 0) { build(t * .35); acc = 0; }
+        g.position.x = camera.aspect > 1.2 ? 2 : 0;
+        g.position.y = camera.aspect > 1.2 ? -.2 : -1.6;
+        g.rotation.x += ((mouse.y * .3 + .2) - g.rotation.x) * .04;
+        g.rotation.y += ((mouse.x * .4 - .2) - g.rotation.y) * .04;
+      };
+    });
+
+    // Full credits: a wireframe clapperboard, gently rocking
+    const clapCanvas = document.getElementById('clapGL');
+    if (clapCanvas) stage(clapCanvas, (scene, camera, mouse) => {
+      const box = (w, h, d, o) => new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(w, h, d)), lineMat(o));
+      const board = new THREE.Group();
+      const slate = box(3.2, 2.2, .14, .2); board.add(slate);
+      const lines = [];
+      [-.2, -.6].forEach(y => lines.push(V(-1.5, y, .08), V(1.5, y, .08)));
+      lines.push(V(0, -.2, .08), V(0, -1.05, .08));
+      board.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(lines), lineMat(.1)));
+      const stick = new THREE.Group();
+      const bar = box(3.2, .42, .14, .2); bar.position.set(1.6, .21, 0); stick.add(bar);
+      const stripes = [];
+      for (let i = 0; i < 6; i++) { const x = .25 + i * .52; stripes.push(V(x, 0, .08), V(x + .3, .42, .08)); }
+      stick.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(stripes), lineMat(.14)));
+      stick.position.set(-1.6, 1.12, 0);
+      const base = box(3.2, .42, .14, .2); base.position.y = 1.31 - .42;
+      board.add(stick); slate.position.y = -.3; board.children[1].position.y = -.3;
+      const holder = new THREE.Group(); holder.add(board); scene.add(holder);
+      return (dt, t) => {
+        const wide = camera.aspect > 1.2;
+        holder.position.set(wide ? 4.2 : 2.4, wide ? .1 : 1.4, 0);
+        holder.scale.setScalar(wide ? .9 : .55);
+        stick.rotation.z = .18 + Math.max(0, Math.sin(t * .9)) * .22;
+        holder.rotation.y += ((mouse.x * .6 - .5) - holder.rotation.y) * .04;
+        holder.rotation.x += ((mouse.y * .3 + .1) - holder.rotation.x) * .04;
+        holder.rotation.z = Math.sin(t * .4) * .04;
+      };
+    });
+
+    // Footer: projector dust drifting through the light
+    const dustCanvas = document.getElementById('dustGL');
+    if (dustCanvas) stage(dustCanvas, (scene, camera, mouse) => {
+      const N = 260, pos = new Float32Array(N * 3), speed = new Float32Array(N);
+      for (let i = 0; i < N; i++) { pos[i*3] = (Math.random() - .5) * 18; pos[i*3+1] = (Math.random() - .5) * 10; pos[i*3+2] = (Math.random() - .5) * 6; speed[i] = .08 + Math.random() * .22; }
+      const geo = new THREE.BufferGeometry(); geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+      const dot = document.createElement('canvas'); dot.width = dot.height = 32;
+      const g = dot.getContext('2d'), grad = g.createRadialGradient(16, 16, 0, 16, 16, 16);
+      grad.addColorStop(0, 'rgba(255,255,255,1)'); grad.addColorStop(1, 'rgba(255,255,255,0)'); g.fillStyle = grad; g.fillRect(0, 0, 32, 32);
+      const pts = new THREE.Points(geo, new THREE.PointsMaterial({ color: BRASS, size: .09, map: new THREE.CanvasTexture(dot), transparent: true, opacity: .55, depthWrite: false }));
+      scene.add(pts);
+      return (dt, t) => {
+        for (let i = 0; i < N; i++) {
+          pos[i*3+1] += speed[i] * dt; pos[i*3] += Math.sin(t * .3 + i) * dt * .05;
+          if (pos[i*3+1] > 5) pos[i*3+1] = -5;
+        }
+        geo.attributes.position.needsUpdate = true;
+        pts.rotation.y += ((mouse.x * .25) - pts.rotation.y) * .03;
+        pts.rotation.x += ((mouse.y * .15) - pts.rotation.x) * .03;
+      };
+    });
+  })();
+</script>
+</body>
+</html>
